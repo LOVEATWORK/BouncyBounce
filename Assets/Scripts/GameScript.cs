@@ -10,8 +10,6 @@ public class GameScript : MonoBehaviour {
 	GameObject player;
 	HealthScript health;
 
-	//Set labelPosition public so it can be changed in inspector (editor). 
-
 	void Start() {
 
 		player = GameObject.FindGameObjectWithTag ("Player");
